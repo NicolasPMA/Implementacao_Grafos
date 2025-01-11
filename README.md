@@ -53,9 +53,7 @@ Quando rodar o código, um menu de opções será apresentado.
 
 ## ⚙ Como o código funciona
 
-O código é feito a partir dos conceitos gerais de uma árvore AVL. Primeiramente é necessário que a árvore fornecida pelo usuário seja balanceada e ordenada. 
-Desse modo, todos o código irá rodar sem nenhum tipo de problema. Conceitos utilizados:
-- Fator de Balanceamento.
-- Rotações simples e duplas.
-- Modo de impressão (pré-ordem, em-ordem, pós-ordem e largura).
-- Recursão.
+O código é feito a partir dos conceitos gerais de grafos. O código é inicalizado com uma estrutura padrão de grafo com os vértices (1, 2, 3, 4 e 5) sem arestas conectando-os.
+O formato utilizado do grafo é do formato 1-(5, 10), ou seja, origem: 1, destino: 5 e custo: 10.
+Conceitos utilizados:
+- Conceitos gerais de Grafos.
